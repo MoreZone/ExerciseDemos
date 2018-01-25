@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49172B7220186AA80002ABFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49172B7120186AA80002ABFD /* AppDelegate.m */; };
+		49172B7520186AA80002ABFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49172B7420186AA80002ABFD /* ViewController.m */; };
+		49172B7820186AA80002ABFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49172B7620186AA80002ABFD /* Main.storyboard */; };
+		49172B7A20186AA80002ABFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49172B7920186AA80002ABFD /* Assets.xcassets */; };
+		49172B7D20186AA80002ABFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49172B7B20186AA80002ABFD /* LaunchScreen.storyboard */; };
+		49172B8020186AA80002ABFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49172B7F20186AA80002ABFD /* main.m */; };
+		49172B9320187CE00002ABFD /* CutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49172B9120187CE00002ABFD /* CutViewController.m */; };
+		49172B9420187CE00002ABFD /* CutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49172B9220187CE00002ABFD /* CutViewController.xib */; };
+		49172B97201882000002ABFD /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 49172B96201882000002ABFD /* UIImage+image.m */; };
+		49172B9B201889E30002ABFD /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49172B99201889E30002ABFD /* PictureViewController.m */; };
+		49172B9C201889E30002ABFD /* PictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49172B9A201889E30002ABFD /* PictureViewController.xib */; };
+		4960C3802019789300EBC0E6 /* EraseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960C37E2019789300EBC0E6 /* EraseViewController.m */; };
+		4960C3812019789300EBC0E6 /* EraseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4960C37F2019789300EBC0E6 /* EraseViewController.xib */; };
+		4960C3982019915E00EBC0E6 /* GuestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960C3962019915E00EBC0E6 /* GuestViewController.m */; };
+		4960C3992019915E00EBC0E6 /* GuestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4960C3972019915E00EBC0E6 /* GuestViewController.xib */; };
+		4960C39C2019A6D700EBC0E6 /* VCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960C39B2019A6D700EBC0E6 /* VCView.m */; };
+		4960C3A02019C98000EBC0E6 /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960C39E2019C98000EBC0E6 /* DrawingViewController.m */; };
+		4960C3A12019C98000EBC0E6 /* DrawingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4960C39F2019C98000EBC0E6 /* DrawingViewController.xib */; };
+		4960C3A42019C9BD00EBC0E6 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960C3A32019C9BD00EBC0E6 /* DrawView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49172B6D20186AA80002ABFD /* Quartz2DDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartz2DDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49172B7020186AA80002ABFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49172B7120186AA80002ABFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49172B7320186AA80002ABFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49172B7420186AA80002ABFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49172B7720186AA80002ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49172B7920186AA80002ABFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49172B7C20186AA80002ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49172B7E20186AA80002ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49172B7F20186AA80002ABFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49172B9020187CE00002ABFD /* CutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CutViewController.h; sourceTree = "<group>"; };
+		49172B9120187CE00002ABFD /* CutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CutViewController.m; sourceTree = "<group>"; };
+		49172B9220187CE00002ABFD /* CutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CutViewController.xib; sourceTree = "<group>"; };
+		49172B95201882000002ABFD /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		49172B96201882000002ABFD /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		49172B98201889E30002ABFD /* PictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		49172B99201889E30002ABFD /* PictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
+		49172B9A201889E30002ABFD /* PictureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureViewController.xib; sourceTree = "<group>"; };
+		4960C37D2019789300EBC0E6 /* EraseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EraseViewController.h; sourceTree = "<group>"; };
+		4960C37E2019789300EBC0E6 /* EraseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EraseViewController.m; sourceTree = "<group>"; };
+		4960C37F2019789300EBC0E6 /* EraseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EraseViewController.xib; sourceTree = "<group>"; };
+		4960C3952019915E00EBC0E6 /* GuestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuestViewController.h; sourceTree = "<group>"; };
+		4960C3962019915E00EBC0E6 /* GuestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuestViewController.m; sourceTree = "<group>"; };
+		4960C3972019915E00EBC0E6 /* GuestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuestViewController.xib; sourceTree = "<group>"; };
+		4960C39A2019A6D700EBC0E6 /* VCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCView.h; sourceTree = "<group>"; };
+		4960C39B2019A6D700EBC0E6 /* VCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCView.m; sourceTree = "<group>"; };
+		4960C39D2019C98000EBC0E6 /* DrawingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
+		4960C39E2019C98000EBC0E6 /* DrawingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
+		4960C39F2019C98000EBC0E6 /* DrawingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawingViewController.xib; sourceTree = "<group>"; };
+		4960C3A22019C9BD00EBC0E6 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		4960C3A32019C9BD00EBC0E6 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49172B6A20186AA80002ABFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49172B6420186AA80002ABFD = {
+			isa = PBXGroup;
+			children = (
+				49172B6F20186AA80002ABFD /* Quartz2DDemos */,
+				49172B6E20186AA80002ABFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49172B6E20186AA80002ABFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49172B6D20186AA80002ABFD /* Quartz2DDemos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49172B6F20186AA80002ABFD /* Quartz2DDemos */ = {
+			isa = PBXGroup;
+			children = (
+				49172B8620186ADB0002ABFD /* Class */,
+				49172B7020186AA80002ABFD /* AppDelegate.h */,
+				49172B7120186AA80002ABFD /* AppDelegate.m */,
+				49172B7320186AA80002ABFD /* ViewController.h */,
+				49172B7420186AA80002ABFD /* ViewController.m */,
+				49172B7620186AA80002ABFD /* Main.storyboard */,
+				49172B7920186AA80002ABFD /* Assets.xcassets */,
+				49172B7B20186AA80002ABFD /* LaunchScreen.storyboard */,
+				49172B7E20186AA80002ABFD /* Info.plist */,
+				49172B7F20186AA80002ABFD /* main.m */,
+			);
+			path = Quartz2DDemos;
+			sourceTree = "<group>";
+		};
+		49172B8620186ADB0002ABFD /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				49172B95201882000002ABFD /* UIImage+image.h */,
+				49172B96201882000002ABFD /* UIImage+image.m */,
+				49172B9020187CE00002ABFD /* CutViewController.h */,
+				49172B9120187CE00002ABFD /* CutViewController.m */,
+				49172B9220187CE00002ABFD /* CutViewController.xib */,
+				49172B98201889E30002ABFD /* PictureViewController.h */,
+				49172B99201889E30002ABFD /* PictureViewController.m */,
+				49172B9A201889E30002ABFD /* PictureViewController.xib */,
+				4960C37D2019789300EBC0E6 /* EraseViewController.h */,
+				4960C37E2019789300EBC0E6 /* EraseViewController.m */,
+				4960C37F2019789300EBC0E6 /* EraseViewController.xib */,
+				4960C3952019915E00EBC0E6 /* GuestViewController.h */,
+				4960C3962019915E00EBC0E6 /* GuestViewController.m */,
+				4960C3972019915E00EBC0E6 /* GuestViewController.xib */,
+				4960C39A2019A6D700EBC0E6 /* VCView.h */,
+				4960C39B2019A6D700EBC0E6 /* VCView.m */,
+				4960C39D2019C98000EBC0E6 /* DrawingViewController.h */,
+				4960C39E2019C98000EBC0E6 /* DrawingViewController.m */,
+				4960C39F2019C98000EBC0E6 /* DrawingViewController.xib */,
+				4960C3A22019C9BD00EBC0E6 /* DrawView.h */,
+				4960C3A32019C9BD00EBC0E6 /* DrawView.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49172B6C20186AA80002ABFD /* Quartz2DDemos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49172B8320186AA80002ABFD /* Build configuration list for PBXNativeTarget "Quartz2DDemos" */;
+			buildPhases = (
+				49172B6920186AA80002ABFD /* Sources */,
+				49172B6A20186AA80002ABFD /* Frameworks */,
+				49172B6B20186AA80002ABFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quartz2DDemos;
+			productName = Quartz2DDemos;
+			productReference = 49172B6D20186AA80002ABFD /* Quartz2DDemos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49172B6520186AA80002ABFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = More;
+				TargetAttributes = {
+					49172B6C20186AA80002ABFD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49172B6820186AA80002ABFD /* Build configuration list for PBXProject "Quartz2DDemos" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49172B6420186AA80002ABFD;
+			productRefGroup = 49172B6E20186AA80002ABFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49172B6C20186AA80002ABFD /* Quartz2DDemos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49172B6B20186AA80002ABFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4960C3992019915E00EBC0E6 /* GuestViewController.xib in Resources */,
+				49172B7D20186AA80002ABFD /* LaunchScreen.storyboard in Resources */,
+				4960C3812019789300EBC0E6 /* EraseViewController.xib in Resources */,
+				49172B9C201889E30002ABFD /* PictureViewController.xib in Resources */,
+				49172B9420187CE00002ABFD /* CutViewController.xib in Resources */,
+				4960C3A12019C98000EBC0E6 /* DrawingViewController.xib in Resources */,
+				49172B7A20186AA80002ABFD /* Assets.xcassets in Resources */,
+				49172B7820186AA80002ABFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49172B6920186AA80002ABFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49172B7520186AA80002ABFD /* ViewController.m in Sources */,
+				49172B9B201889E30002ABFD /* PictureViewController.m in Sources */,
+				4960C39C2019A6D700EBC0E6 /* VCView.m in Sources */,
+				4960C3802019789300EBC0E6 /* EraseViewController.m in Sources */,
+				4960C3A42019C9BD00EBC0E6 /* DrawView.m in Sources */,
+				49172B8020186AA80002ABFD /* main.m in Sources */,
+				4960C3A02019C98000EBC0E6 /* DrawingViewController.m in Sources */,
+				49172B97201882000002ABFD /* UIImage+image.m in Sources */,
+				49172B9320187CE00002ABFD /* CutViewController.m in Sources */,
+				49172B7220186AA80002ABFD /* AppDelegate.m in Sources */,
+				4960C3982019915E00EBC0E6 /* GuestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49172B7620186AA80002ABFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49172B7720186AA80002ABFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49172B7B20186AA80002ABFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49172B7C20186AA80002ABFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49172B8120186AA80002ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49172B8220186AA80002ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49172B8420186AA80002ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Quartz2DDemos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = More.Quartz2DDemos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49172B8520186AA80002ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Quartz2DDemos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = More.Quartz2DDemos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49172B6820186AA80002ABFD /* Build configuration list for PBXProject "Quartz2DDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49172B8120186AA80002ABFD /* Debug */,
+				49172B8220186AA80002ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49172B8320186AA80002ABFD /* Build configuration list for PBXNativeTarget "Quartz2DDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49172B8420186AA80002ABFD /* Debug */,
+				49172B8520186AA80002ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49172B6520186AA80002ABFD /* Project object */;
+}
